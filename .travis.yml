@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - "node"
+services:
+  - mariadb
+before_install:
+  - mariadb --host sky0001355.mdb0001390.db.skysql.net --port 5001 --user DB00001517 -p --ssl-ca skysql_chain.pem
